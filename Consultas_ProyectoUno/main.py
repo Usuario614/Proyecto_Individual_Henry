@@ -2,6 +2,11 @@ from fastapi import FastAPI
 from typing import List
 import pandas as pd
 
+import os
+import pandas as pd
+
+file_path = os.path.join(os.getcwd(), r'C:\Users\jotad\OneDrive\Documentos\Sebastian\Proyecto 2024\Consultas_ProyectoUno\df_para_consultas.csv')  # Ruta relativa al directorio actual
+df_para_consultas = pd.read_csv(file_path)
 
 
 df_para_consultas = pd.read_csv(r"C:\Users\jotad\OneDrive\Documentos\Sebastian\Proyecto 2024\Consultas_ProyectoUno\df_para_consultas.csv")
