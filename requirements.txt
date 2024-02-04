@@ -1,7 +1,9 @@
 fastapi
 pandas
 uvicorn
-click>=8.0.0
 finder>=1.0.0
 fastapi==0.68.0
 uvicorn==0.15.0
+uvicorn==0.15.0
+finder==1.0.2
+click==6.7
